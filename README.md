@@ -1,46 +1,17 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+My Frontend for the Library App
+![Screenshot (229)](https://github.com/user-attachments/assets/7d282652-27cf-4450-9687-9b2869869be5)
+Login Page
+![Screenshot (230)](https://github.com/user-attachments/assets/4cc23737-5811-4faf-a40c-0192e5f21cad)
+Book page
+![Screenshot (231)](https://github.com/user-attachments/assets/a26c580f-c4a4-4770-b4f2-60d41211a28e)
+About Book
+![Screenshot (232)](https://github.com/user-attachments/assets/2672871d-baee-45d3-a2b2-27cd066b2141)
+Message to Admin For the Queries
+![Screenshot (233)](https://github.com/user-attachments/assets/a7ce6dee-bf3f-4200-b106-b0c12d26e176)
+![Screenshot (234)](https://github.com/user-attachments/assets/14e40527-a9c1-41b4-9c2d-d2e2ac6adb7d)
+Shelf Page
+![Screenshot (235)](https://github.com/user-attachments/assets/545f2b0e-2e7f-4240-8e0e-6efc797f9f26)
+Admin Page
+![Screenshot (236)](https://github.com/user-attachments/assets/5eb115cf-0773-419b-8771-4849b425a9ec)
+![Screenshot (238)](https://github.com/user-attachments/assets/9807d6b6-ce74-4f1f-b08c-5b5a154ef3bb)
+![Screenshot (237)](https://github.com/user-attachments/assets/7ff35417-3a5c-4627-b8cc-0115bc0d9eed)
