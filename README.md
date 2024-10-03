@@ -48,4 +48,4 @@ Admin Page
 
 
 
-Linkedin Article - https://www.linkedin.com/pulse/library-management-system-balaji-gokul-0epze/
+Linkedin Article - https://www.linkedin.com/pulse/library-management-system-balaji-gokul-ri5ac/
