@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import BookModel from "../../models/BookModel";
+
 import ReviewModel from "../../models/ReviewModel";
 import ReviewRequestModel from '../../models/ReviewRequestModel';
 import { SpinnerLoading } from "../Utils/SpinnerLoading";
@@ -7,6 +7,7 @@ import { StarsReview } from "../Utils/StarsReview";
 import { CheckoutAndReviewBox } from "./CheckoutAndReviewBox";
 import { LatestReviews } from "./LatestReviews";
 import { useOktaAuth } from "@okta/okta-react";
+import BookModel from "../../models/BookModel";
 
 export const BookCheckoutPage = () => {
 
@@ -102,7 +103,7 @@ export const BookCheckoutPage = () => {
                 setIsLoadingReview(false);
             } catch (error) {
                 setIsLoadingReview(false);
-                setHttpError(error.message);
+                // setHttpError(error.message);
             }
         };
 
@@ -129,7 +130,7 @@ export const BookCheckoutPage = () => {
                     setIsReviewLeft(userReviewResponseJson);
                 } catch (error) {
                     setIsLoadingUserReview(false);
-                    setHttpError(error.message);
+                    // setHttpError(error.message);
                 } finally {
                     setIsLoadingUserReview(false);
                 }
@@ -184,7 +185,7 @@ export const BookCheckoutPage = () => {
                     setIsCheckedOut(bookCheckedOutResponseJson);
                 } catch (error) {
                     setIsLoadingBookCheckedOut(false);
-                    setHttpError(error.message);
+                    // setHttpError(error.message);
                 } finally {
                     setIsLoadingBookCheckedOut(false);
                 }
