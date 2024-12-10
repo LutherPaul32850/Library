@@ -1,13 +1,15 @@
 import { useEffect, useState } from "react";
 
-import ReviewModel from "../../models/ReviewModel";
-import ReviewRequestModel from '../../models/ReviewRequestModel';
+
 import { SpinnerLoading } from "../Utils/SpinnerLoading";
 import { StarsReview } from "../Utils/StarsReview";
 import { CheckoutAndReviewBox } from "./CheckoutAndReviewBox";
 import { LatestReviews } from "./LatestReviews";
 import { useOktaAuth } from "@okta/okta-react";
 import BookModel from "../../models/BookModel";
+import ReviewModel from "../../models/ReviewModel";
+import ReviewRequestModel from "../../models/ReviewRequestModel";
+
 
 export const BookCheckoutPage = () => {
 
