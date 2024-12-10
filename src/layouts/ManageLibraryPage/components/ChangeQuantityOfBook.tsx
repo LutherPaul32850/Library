@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import BookModel from "../../../models/BookModel";
 import { useOktaAuth } from '@okta/okta-react';
+import BookModel from "../../../models/BookModel";
 
 export const ChangeQuantityOfBook: React.FC<{ book: BookModel, deleteBook: () => void }> = (props) => {
     

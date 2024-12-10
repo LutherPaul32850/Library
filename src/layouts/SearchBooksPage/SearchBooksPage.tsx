@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import BookModel from '../../models/BookModel';
 import { Pagination } from '../Utils/Pagination';
 import { SpinnerLoading } from '../Utils/SpinnerLoading';
 import { SearchBook } from './components/SearchBook';
+import BookModel from '../../models/BookModel';
 
 export const SearchBooksPage = () => {
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import BookModel from '../../../models/BookModel';
 import { SpinnerLoading } from '../../Utils/SpinnerLoading';
 import { Pagination } from '../../Utils/Pagination';
 import { ChangeQuantityOfBook } from "./ChangeQuantityOfBook";
+import BookModel from "../../../models/BookModel";
 
 export const ChangeQuantityOfBooks = () => {
 
